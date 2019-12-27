@@ -1,0 +1,40 @@
+{
+  "name": "@nicolasn/meerkat",
+  "version": "0.0.1",
+  "description": "A parser that reads csv like files to generate Mongoose models and HTML forms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasNewman/Meerkat.git"
+  },
+  "keywords": [
+    "Mongoose",
+    "MongoDB",
+    "Parser"
+  ],
+  "author": "NicolasNewman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasNewman/Meerkat/issues"
+  },
+  "homepage": "https://github.com/NicolasNewman/Meerkat#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.4"
+  }
+}
